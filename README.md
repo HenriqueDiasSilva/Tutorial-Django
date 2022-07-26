@@ -18,7 +18,6 @@ O banco de dados está sendo hospedado localmente, para configurar os acessos, e
 e na linha 77 (DATABASES) insira as informações de acesso do seu banco local.
 
 Exemplo de Configuração (Postgresql)
-DATABASES = { 
 
     'default': { 
         'ENGINE': 'django.db.backends.postgresql', 
@@ -28,7 +27,6 @@ DATABASES = {
         'HOST': Hospedagem do banco, 
         'PORT': 5432, 
     } 
-}
 
 
 ## Uso
