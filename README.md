@@ -4,20 +4,20 @@
 
 ## CRIAÇÃO
 - Crie um ambiente Python
-No console digite: python -m venv venv ou python3 -m venv venv
+ - No console digite: python -m venv venv ou python3 -m venv venv
 
 - Execute o ambiente Python
- No console digite: venv\Scripts\activate para Windows ou . venv/bin/activate para Linux e MacOs
+ - No console digite: venv\Scripts\activate para Windows ou . venv/bin/activate para Linux e MacOs
 
 - Instale as dependências do projeto
-No console digite: pip install django
-No console digite: pip install django psycopg2
+ - No console digite: pip install django
+ - No console digite: pip install django psycopg2
 
 - Configure o banco de dados local
-O banco de dados está sendo hospedado localmente, para configurar os acessos, entre no diretório (mysite), depois entre no arquivo (settings.py) 
-e na linha 77 (DATABASES) insira as informações de acesso do seu banco local.
+ - O banco de dados está sendo hospedado localmente, para configurar os acessos, entre no diretório (mysite), depois entre no arquivo (settings.py) 
+ e na linha 77 (DATABASES) insira as informações de acesso do seu banco local.
 
-Exemplo de Configuração (Postgresql)
+ - Exemplo de Configuração (Postgresql)
 
     'default': { 
         'ENGINE': 'django.db.backends.postgresql', 
@@ -31,9 +31,9 @@ Exemplo de Configuração (Postgresql)
 
 ## Uso
 - Passe os modelos para o banco de dados
-No console digite: python manage.py makemigrations ou python3 manage.py makemigrations
-No console digite: python manage.py migrate ou python3 manage.py migrate
+ - No console digite: python manage.py makemigrations ou python3 manage.py makemigrations
+ - No console digite: python manage.py migrate ou python3 manage.py migrate
 
 - Rode o servidor
-No console digite: python manage.py runserver ou python3 manage.py runserver
-No console: http://127.0.0.1:8000
+ - No console digite: python manage.py runserver ou python3 manage.py runserver
+ - No console: http://127.0.0.1:8000
